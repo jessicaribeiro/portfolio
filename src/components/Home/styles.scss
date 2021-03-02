@@ -1,0 +1,64 @@
+$color-white: #fff;
+$color-old-rose: #c2847a;
+
+//pallete: https://coolors.co/eee0cb-baa898-848586-c2847a-280003
+
+.section-home {
+    height: calc(100vh);
+
+    &-video {
+        position: fixed;
+        width: 100%;
+        height: auto;
+    }
+}
+
+.intro {
+    display: block;
+    position: relative;
+    top: 30%;
+
+    &-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 50px;
+        font-family: 'Montserrat', sans-serif;  // 'Crimson Text', Serif; 'Lato', Sans-Serif;
+
+        & > div  {
+            color: $color-white;
+        }
+        & > div span {
+            color: $color-old-rose;
+            font-weight: bold;
+        }
+    }
+
+    .button-view {
+        display: flex;
+        align-items: center;
+        border: 2px solid $color-old-rose;
+        margin-top: 50px;
+        font-size: 20px;
+        padding: 20px;
+        cursor: pointer;
+
+        span {
+            color: $color-white;
+        }
+
+        .icon-arrow {
+            color: $color-old-rose;
+            margin-left: 10px;
+            transform: rotate(0deg);
+            transition: all 0.4s ease;
+        }
+
+        &:hover .icon-arrow {
+            transform: rotate(90deg);
+        }
+    }
+
+}
+
