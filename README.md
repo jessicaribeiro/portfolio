@@ -2,6 +2,14 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+Fonts: Font Awesome
+Font Family: Montserrat
+Video from ...
+Images from ...
+Color palete used ...
+
+
 ## Available Scripts
 
 In the project directory, you can run:
